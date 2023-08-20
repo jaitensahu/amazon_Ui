@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: #0F1111;
+}
+.header-bottom{
+    background-color:#222F3D;
+    height: 45px
+}
+.nav{
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    max-width: 1280px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 38px;
+}
+
+a{
+    /* width: 250px; */
+    color: white;
+}
+a p{
+    font-size: 12px;
+}
+a span{
+    font-size: 14px;
+    color: white;
+}
+a h5{
+    font-size: 14px;
+}
+.form{
+    width: 600px;
+    display: flex;
+    /* background-color: aqua; */
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.form select{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+}
+form input{
+    max-width: 600px;
+    border: none;
+    padding-left:10px  ;
+    /* height: 40px; */
+}
+form span{
+    color: #0F1111;
+    background-color: #FEBD68;
+}
+form .material-symbols-outlined{
+    font-size: 28px;
+    padding: 5px 5px;
+    border-radius: 0 5px 5px 0;
+}
+select{
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #F3F3F3;
+}
+.header-bottom{
+    padding: 10px 20px;
+}
+ul{
+    color: white;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 14px;
+}
+.content div{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.content{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+.hero{
+    background-image: url("https://priyanshu-240499.github.io/Assignments-CSS/Weekly%20Test%20for%20CSS%20(Week-3)/images/hero-img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+main{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap:40px;
+    overflow: hidden;
+
+}
+
+.items{
+    width: 290px;
+    height: 410px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.items img{
+    width: 230px;
+    height: 280px;
+    margin: 10px 0;
+}
+.items div a{
+    color: black;
+} 
+.items div{
+    background-color: white;
+}
+
+
+.items .zoom, .items {
+    transition: transform .5s ease;
+  }
+
+  .items .zoom:hover {
+    transform: scale(1.1);
+  }
+
+
+.top{
+    background-color: #37475A;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top a{
+    width: 100px;
+  text-decoration: none;
+}
+footer{
+    width: 100%;
+    /* height: 400px; */
+    background-color: #232F3E;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-items ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 7px;
+    font-size: 14px;
+}
+.footer-items ul li a{
+    text-decoration: none;
+}
+.footer-items h3{
+    color: white;
+    margin-bottom:20px  ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-items{
+    margin: 20px 0;
+}
+main a{
+    font-size: 14px ;
+}
+main a:hover{
+    text-decoration: underline;
+    color: orangered
+}
+.footer-items ul li a:hover{
+    text-decoration: underline;
+}
+.nav a,.header-bottom a:hover{
+    color: rgb(204, 204, 204);
+}
